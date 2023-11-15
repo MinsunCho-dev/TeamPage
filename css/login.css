@@ -11,6 +11,12 @@ body {
     height: 100vh;
     /* background: linear-gradient(to top, #c9c9ff 50%, #9090fa 90%) no-repeat */
     background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5baf8325-ed69-40b0-b9d2-d8c5d2bde3b0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.font-weight-bold {
+    font-weight: 700!important;
+    color: rgb(73, 57, 113);
 }
 
 .container {
