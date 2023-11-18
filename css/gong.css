@@ -8,6 +8,12 @@
   margin: 0;
 }
 
+#footerOther{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .img{
   height: 300px;
   width: 300px;
@@ -24,30 +30,12 @@
 }
 
 
-@media (max-width: 600px) {
-  .slick {
-    height: 30%;
-    width: 30%;
-  }
-
-  .img {
-    height: 30%;
-    width: 30%;
-  }
-  .content{
-    padding-left: 0px;
-  }
-}
 
 /* 중간 화면 크기에 대한 스타일 */
-@media (min-width: 601px) and (max-width: 1320px) {
+@media (max-width: 1320px) {
   .slick {
     height: 30%;
     width: 30%;
-  }
-  .content{
-    padding-left: 0px;
-    margin: 0;
   }
 
   .img {
@@ -57,15 +45,14 @@
   *{
     font-size: 10px;
   }
+  #footerOther{
+    margin: 0;  
+    display: none;
+  }
 }
 
 /* 큰 화면 크기에 대한 스타일 */
-@media (min-width: 1350px) {
-  .slick {
-    height: 300px;
-    width: 300px;
-  }
-}
+
 
 .img1{
   background-image: url(../img/sajin.jpg);
@@ -98,6 +85,7 @@
   text-align: center;
   padding: 30px 0 30px 0;
   padding-left: 300px;
+  
 }
 
 .mainGong{
@@ -271,6 +259,7 @@ main {
 .content {
   display: grid;
   grid-template-columns: 75% 25%;
+  back
 }
 
 /* LEFT CONTENT */
