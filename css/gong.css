@@ -8,28 +8,26 @@
   margin: 0;
 }
 
-#footerOther{
+#footerOther {
   box-sizing: border-box;
   margin: 0 auto;
   width: 100%;
 }
 
-.img{
+.img {
   height: 300px;
   width: 300px;
 }
 
-.card-footer{
+.card-footer {
   height: 50px;
   width: 100px;
   margin: 0 auto;
 }
-.fa-github-square{
+.fa-github-square {
   font-size: 40px;
   cursor: pointer;
 }
-
-
 
 /* 중간 화면 크기에 대한 스타일 */
 @media (max-width: 1320px) {
@@ -42,31 +40,29 @@
     height: 30%;
     width: 30%;
   }
-  *{
+  * {
     font-size: 10px;
   }
-  #footerOther{
-    margin: 0;  
+  #footerOther {
+    margin: 0;
     display: none;
   }
 }
 
 /* 큰 화면 크기에 대한 스타일 */
 
-
-.img1{
+.img1 {
   background-image: url(../img/gong_img/sajin.jpg);
-
 }
-.img2{
+.img2 {
   background-image: url(../img/gong_img/sajin2.jpg);
 }
 
-.img3{
+.img3 {
   background-image: url(../img/gong_img/sajin3.jpg);
 }
 
-.card-title{
+.card-title {
   font-size: 2em;
   font-weight: bold;
   color: black;
@@ -78,30 +74,28 @@
   margin: 0 auto;
 }
 
-.content{
+.content {
   width: 100%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
   padding: 30px 0 30px 0;
   padding-left: 300px;
-  
 }
 
-.mainGong{
+.mainGong {
   padding-top: 80px;
   width: 60%;
   height: 100%;
   margin: 0 auto;
 }
 
-.gongTitle{
+.gongTitle {
   text-align: center;
 }
-.gongImg{
+.gongImg {
   background-color: #000;
   display: block;
-
 }
 
 nav {
@@ -130,7 +124,7 @@ body {
   background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5baf8325-ed69-40b0-b9d2-d8c5d2bde3b0);
   background-repeat: no-repeat;
   background-size: cover;
-	/* background: #212140; */
+  /* background: #212140; */
 }
 
 /* MAIN MENU */
@@ -259,7 +253,6 @@ main {
 .content {
   display: grid;
   grid-template-columns: 75% 25%;
-  back
 }
 
 /* LEFT CONTENT */
@@ -851,11 +844,11 @@ main {
     max-width: 60px;
     align-self: center;
   }
-	
-	.right-content {
-		grid-template-rows: 4% 20% 76%;
-		margin: 15px 15px 15px 0;
-	}
+
+  .right-content {
+    grid-template-rows: 4% 20% 76%;
+    margin: 15px 15px 15px 0;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -952,7 +945,7 @@ main {
 }
 
 @media (max-width: 1050px) {
-	 .right-content {
+  .right-content {
     grid-template-rows: 5% 19% 36% 40%;
   }
 }
