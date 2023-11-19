@@ -1,10 +1,10 @@
 @font-face {
   font-family: "GmarketBold";
-  src: url("../..//font/GmarketSansTTFBold.ttf") format("truetype");
+  src: url("../src/font/GmarketSansTTFBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "GmarketMedium";
-  src: url("../..//font/GmarketSansTTFMedium.ttf") format("truetype");
+  src: url("../src/font/GmarketSansTTFMedium.ttf") format("truetype");
 }
 
 * {
@@ -12,9 +12,8 @@
 }
 body {
   padding-top: 150px;
-  background-color: #eff2f8 !important;
+  background-color: #eff2f8;
 }
-
 body::-webkit-scrollbar {
   display: none;
 }
@@ -128,27 +127,26 @@ body::-webkit-scrollbar {
   display: flex;
   margin: 0 auto;
 }
-.carousel.slide {
+.slide-container {
   width: 438px;
   margin: 0 auto;
 }
-.carousel-inner {
+.slide-album {
   position: relative;
-  margin-left: -50px;
   width: 438px;
   height: 438px;
   overflow: hidden;
   border-radius: 20px;
 }
-.carousel-item {
+.slide-images {
   position: relative;
   display: flex;
   height: 438px;
 }
-/* .carousel-item img {
-  width: 440px;
+.slide-images img {
+  width: 438px;
   height: 438px;
-} */
+}
 .btn-next,
 .btn-next:active,
 .btn-next:focus {
@@ -402,12 +400,12 @@ body::-webkit-scrollbar {
   bottom: 60px;
   width: 65px;
   height: 65px;
-  background-image: url(../../img/cho_img/btn-moveTop.png);
+  background-image: url(../../src/img/btn-moveTop.png);
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 .btn-moveTop:hover {
-  background-image: url(../../img/cho_img/btn-moveTop-hover.png);
+  background-image: url(../../src/img/btn-moveTop-hover.png);
   transition: 0.5s ease-out;
 }
