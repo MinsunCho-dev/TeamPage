@@ -8,106 +8,44 @@
   margin: 0;
 }
 
-nav {
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-}
-
-nav ul,
-nav ul li {
-  outline: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-}
-
 body {
-  font-family: "Nunito", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5baf8325-ed69-40b0-b9d2-d8c5d2bde3b0);
-  background-repeat: no-repeat;
-  background-size: cover;
-	/* background: #212140; */
+  font-family: 'Jua', sans-serif;
+  
+  background-color: #f5f5f5; 
 }
+
+.jumbotron{
+  background-color: rgb(245, 247, 248);
+        color: rgb(56, 56, 56);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        margin: 40px;
+        padding: 50px;
+        border-radius: 15px;
+}
+
+
+.progress-bar {
+  background-color: rgb(52, 129, 177);
+}
+      .rounded-img {
+  border-radius: 15px;
+}
+
+.responsive-img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover; 
+}
+
 
 /* MAIN MENU */
 
-main {
-  display: grid;
-  grid-template-columns: 13% 87%;
-  min-height: 100vh;
-  width: 100%;
-  margin: 40px;
-  background: rgb(254, 254, 254);
-  box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset,
-    0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
-  border-radius: 15px;
-  z-index: 10;
-}
 
 .main-menu {
   border-radius: 15px 0 0 15px;
   
 }
 
-
-.nav-item b:nth-child(1) {
-  position: absolute;
-  top: -15px;
-  height: 15px;
-  width: 100%;
-  background: #fff;
-  display: none;
-}
-
-.nav-item b:nth-child(1)::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-bottom-right-radius: 20px;
-  background: rgb(73, 57, 113);
-}
-
-.nav-item b:nth-child(2) {
-  position: absolute;
-  bottom: -15px;
-  height: 15px;
-  width: 100%;
-  background: #fff;
-  display: none;
-}
-
-.nav-item b:nth-child(2)::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-top-right-radius: 20px;
-  background: rgb(73, 57, 113);
-}
-
-.nav-item.active b:nth-child(1),
-.nav-item.active b:nth-child(2) {
-  display: block;
-}
-
-.nav-item.active a {
-  text-decoration: none;
-  color: #000;
-  background: rgb(254, 254, 254);
-}
 
 
 /* CONTENT */
