@@ -1,135 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    height: 100vh;
-    /* background: linear-gradient(to top, #c9c9ff 50%, #9090fa 90%) no-repeat */
-    background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5baf8325-ed69-40b0-b9d2-d8c5d2bde3b0);
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  /* background: linear-gradient(to top, #c9c9ff 50%, #9090fa 90%) no-repeat */
+  /* background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5baf8325-ed69-40b0-b9d2-d8c5d2bde3b0); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .font-weight-bold {
-    font-weight: 700!important;
-    color: rgb(73, 57, 113);
+  font-weight: 700 !important;
+  color: rgb(73, 57, 113);
 }
 
 .container {
-    margin: 50px auto
+  margin: 50px auto;
 }
 
 .panel-heading {
-    text-align: center;
-    margin-bottom: 10px
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 #forgot {
-    min-width: 100px;
-    margin-left: auto;
-    text-decoration: none
+  min-width: 100px;
+  margin-left: auto;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none
+  text-decoration: none;
 }
 
 .form-inline label {
-    padding-left: 10px;
-    margin: 0;
-    cursor: pointer
+  padding-left: 10px;
+  margin: 0;
+  cursor: pointer;
 }
 
 .btn.btn-primary {
-    margin-top: 20px;
-    border-radius: 15px
-    
+  margin-top: 20px;
+  border-radius: 15px;
 }
 
 .panel {
-    min-height: 380px;
-    box-shadow: 20px 20px 80px rgb(218, 218, 218);
-    border-radius: 12px
+  min-height: 380px;
+  box-shadow: 20px 20px 80px rgb(218, 218, 218);
+  border-radius: 12px;
 }
 a {
-    color: rgb(73, 57, 113);
+  color: rgb(73, 57, 113);
 }
 .btn-primary {
-    color: #fff;
-    background-color: rgb(73, 57, 113);
-    border-color: rgb(73, 57, 113);
+  color: #fff;
+  background-color: rgb(73, 57, 113);
+  border-color: rgb(73, 57, 113);
 }
 
 .input-field {
-    border-radius: 5px;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    border: 1px solid #ddd;
-    color: rgb(73, 57, 113);
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  color: rgb(73, 57, 113);
 }
 
-input[type='text'],
-input[type='password'] {
-    border: none;
-    outline: none;
-    box-shadow: none;
-    width: 100%
+input[type="text"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
 }
 
 .fa-eye-slash.btn {
-    border: none;
-    outline: none;
-    box-shadow: none
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 img {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-    position: relative
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
 }
 
-a[target='_blank'] {
-    position: relative;
-    transition: all 0.1s ease-in-out
+a[target="_blank"] {
+  position: relative;
+  transition: all 0.1s ease-in-out;
 }
 
 .bordert {
-    border-top: 1px solid #aaa;
-    position: relative
+  border-top: 1px solid #aaa;
+  position: relative;
 }
 
 .bordert:after {
-    content: "or connect with";
-    position: absolute;
-    top: -13px;
-    left: 33%;
-    background-color: #fff;
-    padding: 0px 8px
+  content: "or connect with";
+  position: absolute;
+  top: -13px;
+  left: 33%;
+  background-color: #fff;
+  padding: 0px 8px;
 }
 
-@media(max-width: 360px) {
-    #forgot {
-        margin-left: 0;
-        padding-top: 10px
-    }
+@media (max-width: 360px) {
+  #forgot {
+    margin-left: 0;
+    padding-top: 10px;
+  }
 
-    body {
-        height: 100%
-    }
+  body {
+    height: 100%;
+  }
 
-    .container {
-        margin: 30px 0
-    }
+  .container {
+    margin: 30px 0;
+  }
 
-    .bordert:after {
-        left: 25%
-    }
+  .bordert:after {
+    left: 25%;
+  }
 }
